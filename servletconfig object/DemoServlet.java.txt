@@ -1,0 +1,19 @@
+1.	import java.io.*;  
+2.	import javax.servlet.*;  
+3.	import javax.servlet.http.*;  
+4.	  
+5.	public class DemoServlet extends HttpServlet {  
+6.	public void doGet(HttpServletRequest request, HttpServletResponse response)  
+7.	    throws ServletException, IOException {  
+8.	  
+9.	    response.setContentType("text/html");  
+10.	    PrintWriter out = response.getWriter();  
+11.	      
+12.	    ServletConfig config=getServletConfig();  
+13.	    String driver=config.getInitParameter("driver");  
+14.	    out.print("Driver is: "+driver);  
+15.	          
+16.	    out.close();  
+17.	    }  
+18.	  
+19.	}  

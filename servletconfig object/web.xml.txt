@@ -1,0 +1,19 @@
+1.	<web-app>  
+2.	  
+3.	<servlet>  
+4.	<servlet-name>DemoServlet</servlet-name>  
+5.	<servlet-class>DemoServlet</servlet-class>  
+6.	  
+7.	<init-param>  
+8.	<param-name>driver</param-name>  
+9.	<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+10.	</init-param>  
+11.	  
+12.	</servlet>  
+13.	  
+14.	<servlet-mapping>  
+15.	<servlet-name>DemoServlet</servlet-name>  
+16.	<url-pattern>/servlet1</url-pattern>  
+17.	</servlet-mapping>  
+18.	  
+19.	</web-app>  

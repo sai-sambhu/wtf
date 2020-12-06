@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<company>
+<users id="1001">
+<user>mgit</user>
+</users>
+<users id="2001">
+<user>cbit</user>
+</users>
+</company>

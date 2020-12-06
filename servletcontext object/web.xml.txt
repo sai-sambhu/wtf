@@ -1,0 +1,18 @@
+1.	<web-app>  
+2.	  
+3.	<servlet>  
+4.	<servlet-name>sonoojaiswal</servlet-name>  
+5.	<servlet-class>DemoServlet</servlet-class>  
+6.	</servlet>  
+7.	  
+8.	<context-param>  
+9.	<param-name>dname</param-name>  
+10.	<param-value>sun.jdbc.odbc.JdbcOdbcDriver</param-value>  
+11.	</context-param>  
+12.	  
+13.	<servlet-mapping>  
+14.	<servlet-name>sonoojaiswal</servlet-name>  
+15.	<url-pattern>/context</url-pattern>  
+16.	</servlet-mapping>  
+17.	  
+18.	</web-app>  
